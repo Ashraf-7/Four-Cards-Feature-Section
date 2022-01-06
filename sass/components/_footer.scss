@@ -1,0 +1,16 @@
+footer {
+  padding: 0.25rem;
+  position: fixed;
+  bottom: 0;
+  @include centerX;
+  text-shadow: $text-shadow;
+
+  .attribution {
+    font-size: 0.75rem;
+    color: $grayish-blue;
+
+    a {
+      color: $footer-color;
+    }
+  }
+}

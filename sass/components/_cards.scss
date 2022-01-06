@@ -1,0 +1,58 @@
+.card {
+  min-width: 350px;
+  max-width: 360px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: $rounded;
+  box-shadow: $main-shadow;
+  position: relative;
+  @include flex-center(column);
+  transition: $main-transition;
+
+  &__supervisor::before {
+    @include lineX($primary-cyan);
+  }
+  &__two-team::before {
+    @include lineX($primary-red);
+  }
+  &__two-karma::before {
+    @include lineX($primary-orange);
+  }
+  &__calculator::before {
+    @include lineX($primary-blue);
+  }
+
+  &:hover {
+    box-shadow: $main-shadow-alt;
+    transform: translateY(-10px);
+  }
+
+  &__info {
+    align-self: flex-start;
+    text-align: left;
+    margin-bottom: 1rem;
+
+    h3 {
+      margin: 1rem 0 0.5rem;
+      text-transform: capitalize;
+      color: $dark-blue;
+    }
+    p {
+      font-size: 12px;
+      color: $grayish-blue;
+    }
+  }
+  img {
+    align-self: flex-end;
+  }
+}
+.card__two {
+  @include flex-center(column);
+  gap: 2rem;
+}
+
+@include breakpoints(tablet) {
+  .card__two {
+    @include flex-center(row);
+  }
+}

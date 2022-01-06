@@ -1,0 +1,46 @@
+@mixin flex-center($direction) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@mixin centerX {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin centerY {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin lineX($color) {
+  content: "";
+  position: absolute;
+  top: 0;
+  @include centerX;
+  width: calc(100% - 4px);
+  height: 4px;
+  background-color: $color;
+  border-top-left-radius: $rounded;
+  border-top-right-radius: $rounded;
+}
+
+@mixin breakpoints($point) {
+  @if $point == mobile {
+    @media (max-width: 375px) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (max-width: 1340px) {
+      @content;
+    }
+  } @else if $point == desktop {
+    @media (max-width: 1440px) {
+      @content;
+    }
+  }
+}
