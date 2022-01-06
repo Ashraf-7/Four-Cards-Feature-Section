@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/Ashraf-7/Four-Cards-Feature-Section)
-- Live Site URL: [](https://github.io/Ashraf-7/Four-Cards-Feature-Section)
+- Solution URL: [Solution](https://github.com/Ashraf-7/Four-Cards-Feature-Section)
+- Live Site URL: [Go Live](https://ashraf-7.github.io/Four-Cards-Feature-Section/)
 
 ## My process
 
@@ -39,11 +39,11 @@ Users should be able to:
 
 ### Useful resources
 
-- [resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS) - This is an amazing and helpful website to understand CSS. I'd recommend it to anyone still learning this concept.
-- [resource 2](https://www.w3schools.com/css/default.asp) - This helpful website simplified the subjects.
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) - This is an amazing and helpful website to understand CSS. I'd recommend it to anyone still learning this concept.
+- [W3school](https://www.w3schools.com/css/default.asp) - This helpful website simplified the subjects.
 
 ## Author
 
 - Frontend Mentor - [@Ashraf-7](https://www.frontendmentor.io/profile/Ashraf-7)
-- LinkedIn - [@ashraf-awad-a27023b4](https://www.linkedin.com/in/ashraf-awad-a27023b4/)
+- LinkedIn - [@ashraf-7](https://www.linkedin.com/in/ashraf-awad-a27023b4/)
 - CodePen - [@ashraf-7](https://codepen.io/ashraf-7)
